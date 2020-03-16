@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_azkar"
+            android:icon="@drawable/navigation_drawer_list"
+            android:title="الرئيسية" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@mipmap/f"
+            android:title="المفضلة" />
+
+        <item
+            android:id="@+id/nav_zak"
+            android:icon="@drawable/ic_zak"
+            android:title="زخرفة الحروف" />
+
+
+
+        <item
+            android:id="@+id/nav_seit"
+            android:icon="@mipmap/set"
+            android:title="الإعدادات" />
+
+    </group>
+
+
+    <!--<item android:title="@string/subheader">-->
+
+
+        <!--<menu>-->
+
+
+            <!--<item-->
+                <!--android:title="@string/all_mail"-->
+                <!--android:id="@+id/allmail_id"-->
+                <!--android:icon="@drawable/allmail" />-->
+
+
+            <!--<item-->
+                <!--android:title="@string/trash"-->
+                <!--android:id="@+id/trash_id"-->
+                <!--android:icon="@drawable/trash" />-->
+
+
+            <!--<item-->
+                <!--android:title="@string/spam"-->
+                <!--android:id="@+id/spam_id"-->
+                <!--android:icon="@drawable/spam" />-->
+
+
+        <!--</menu>-->
+
+
+    <!--</item>-->
+
+
+
+
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.messages.abdallah.mymessages.FavMessageActivity"
+    android:focusable="true"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView_fav"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1895204889916566/6714337935"
+        tools:ignore="MissingConstraints"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:id="@+id/editText"
+        android:hint="إبحث هنا"
+        android:gravity="center"
+        android:background="@drawable/rounded_border_edittext"
+        android:drawableRight="@android:drawable/ic_menu_search"/>
+
+
+
+
+
+    <ListView
+        android:id="@+id/lvMessages"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        android:layout_above="@+id/adView" />
+
+
+
+
+</LinearLayout>
